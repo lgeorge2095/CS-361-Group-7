@@ -1,11 +1,11 @@
 ﻿import psycopg2
 
-# Database connection settings
+# Database connection
 DB_HOST = "localhost"
-DB_USER = "your_postgres_user"  # Replace with your PostgreSQL username
-DB_PASSWORD = "your_postgres_password"
+DB_USER = "admin" 
+DB_PASSWORD = "CSGroup7"
 DB_NAME = "threat_intel"
-DB_PORT = "5432"  # Default PostgreSQL port
+DB_PORT = "5432"
 
 # Connect to PostgreSQL
 conn = psycopg2.connect(
