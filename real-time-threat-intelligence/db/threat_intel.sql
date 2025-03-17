@@ -5,7 +5,7 @@
 -- Dumped from database version 17.4
 -- Dumped by pg_dump version 17.2
 
--- Started on 2025-03-16 14:31:20
+-- Started on 2025-03-16 20:56:19
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1435,7 +1435,7 @@ ALTER TABLE ONLY tva_mapping.tva_mapping
     ADD CONSTRAINT tva_mapping_asset_id_fkey FOREIGN KEY (asset_id) REFERENCES assets.assets(id);
 
 
--- Completed on 2025-03-16 14:31:20
+-- Completed on 2025-03-16 20:56:19
 
 --
 -- PostgreSQL database dump complete

@@ -85,20 +85,12 @@ body {
     height: 200px;
 }
 
-.risk-scores {
-    background-color: #d1d5db;
-    text-align: left;
-    padding: 20px;
-    border-radius: 10px;
-    height: 200px;
-}
-
 .real-time-alerts {
     background-color: #d1d5db;
     text-align: left;
     padding: 20px;
     border-radius: 10px;
-    height: 460px;
+    height: 550px;
 }
 
 .section-title {
@@ -109,3 +101,79 @@ body {
 .body-text {
     font-size: 14px;
 }
+
+/* Risk Scores */
+.risk-scores {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d1d5db;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .risk-scores-container {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+  }
+  
+  .risk-scores table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .risk-scores th,
+  .risk-scores td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .risk-scores th {
+    background-color: black;
+    color: white;
+  }
+  
+  .risk-scores td {
+    background-color: #ffffff;
+  }
+  
+  /* Asset List */
+  .asset-section {
+    grid-column: span 2;
+  }
+
+  .asset-list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d1d5db;
+    border-radius: 8px;
+  }
+  
+  .asset-list-container {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+  }
+  
+  .asset-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .asset-list th,
+  .asset-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .asset-list th {
+    background-color: black;
+    color: white;
+  }
+
+  .asset-list td {
+    background-color: #ffffff;
+  }
+  

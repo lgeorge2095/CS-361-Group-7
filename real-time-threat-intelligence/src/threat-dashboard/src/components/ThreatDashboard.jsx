@@ -1,6 +1,8 @@
+import React from "react";
 import ThreatLogs from "./ThreatLogs";
 import RiskScores from "./RiskScores";
 import RealTimeAlerts from "./RealTimeAlerts";
+import AssetList from "./AssetList";
 
 function ThreatDashboard() {
   return (
@@ -23,9 +25,15 @@ function ThreatDashboard() {
 
         {/* Right Column */}
         <RealTimeAlerts />
+
+        {/* Bottom Section */}
+        <div className="asset-section">
+          <AssetList />
+        </div>
       </div>
+      
     </div>
   );
-};
+}
 
 export default ThreatDashboard;
