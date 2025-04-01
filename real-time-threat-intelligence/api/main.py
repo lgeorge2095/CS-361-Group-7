@@ -19,6 +19,3 @@ print(f"VirusTotal API Key: {vt_api_key}")
 print(f"AbuseIPDB API Key: {abuseipdb_api_key}")
 print(f"SecurityTrails API Key: {os.getenv('SECURITYTRAILS_API_KEY')}")
 from dotenv import dotenv_values
-
-
-# TODO: Add logic to use these API keys (e.g., make API requests)
